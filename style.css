@@ -33,7 +33,7 @@
     list-style: none;
     font-size: 25px;
     font-weight: 300;
-    color: whitesmoke;
+    color: whitesmoke ;
 
 }
 
@@ -368,7 +368,7 @@ h1 {
     background-color: blueviolet;
     height: 720px;
     width: 770px;
-    border-radius: 20px ;
+    border-radius: 20px;
     position: relative;
     left: 700px;
     bottom: 750px;
@@ -380,108 +380,225 @@ h1 {
 
 }
 
- .input_bar {
+.input_bar {
     height: 40px;
     width: 470px;
     border-radius: 12px;
     background-color: whitesmoke;
-    font-size: 15px ;
-    font-family: Arial, Helvetica, sans-serif ; 
-    font-weight: 60PX ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 60PX;
     position: relative;
-    bottom : 2px ; 
-    right : 110px ; 
+    bottom: 2px;
+    right: 110px;
 
 }
+
 .serach_button {
-    height : 40px ; 
-    width : 170px ; 
-    border-radius: 15px ;
-    background-color: #1A1F32 ;
-    color: whitesmoke ;
-    font-size: 22px ;
-    font-weight: 30px ;
+    height: 40px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: #1A1F32;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 30px;
     position: relative;
-    left : 240px ;
-    bottom : 65px ;  
-} 
+    left: 240px;
+    bottom: 65px;
+}
 
 .faq_question1 {
-    background-color: rgba(231, 225, 225, 0.993) ;
-    height: 120px ;
-    width : 710px ; 
-    border-radius: 20px ;
-    position: relative ;
-    bottom : 50px ; 
+    background-color: rgba(231, 225, 225, 0.993);
+    height: 120px;
+    width: 710px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
 
 
 }
+
 .faq_question2 {
-    background-color: rgba(231, 225, 225, 0.993) ;
-    height: 120px ;
-    width : 710px ; 
-    border-radius: 20px ;
+    background-color: rgba(231, 225, 225, 0.993);
+    height: 120px;
+    width: 710px;
+    border-radius: 20px;
     position: relative;
-    bottom: 40px ;
+    bottom: 40px;
 }
+
 .faq_question3 {
-    background-color: rgba(231, 225, 225, 0.993) ;
-    height: 120px ;
-    width : 710px ; 
-    border-radius: 20px ;
+    background-color: rgba(231, 225, 225, 0.993);
+    height: 120px;
+    width: 710px;
+    border-radius: 20px;
     position: relative;
-    bottom: 30px ;
+    bottom: 30px;
 }
-.faq_question4
- {
-    background-color: rgba(231, 225, 225, 0.993) ;
-    height: 120px ;
-    width : 710px ;
-    border-radius: 20px ; 
+
+.faq_question4 {
+    background-color: rgba(231, 225, 225, 0.993);
+    height: 120px;
+    width: 710px;
+    border-radius: 20px;
     position: relative;
-    bottom: 20px ;
+    bottom: 20px;
 }
+
 .title_event {
- /* background-color: aqua ; */
- height: 100px ;
- width : 340px ; 
- overflow-y: hidden;
- position: relative;
- bottom : 610px ; 
- left : 30px ; 
+    /* background-color: aqua ; */
+    height: 100px;
+    width: 475px;
+    overflow-y: hidden;
+    position: relative;
+    bottom: 610px;
+    left: 30px;
 
 }
+
 .heading_event {
-    font-size: 55px ;
+    font-size: 55px;
     font-family: "poppins";
 
 }
-.he{
+
+.he {
     font-family: "poppins";
+    color: blueviolet;
+    padding-left: 3px;
+}
+
+.pastevent {
+    /* background-color: aqua; */
+    background-color: blueviolet;
+    height: 300px;
+    width: 1435px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 570px;
+    left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.event_pic {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.title_event2 {
+    /* background-color: aqua; */
+    width: 340px;
+    height: 120px;
+    overflow-y: hidden;
+    position: relative;
+    bottom: 470px;
+    left: 25px;
+}
+
+.pastevent2 {
+    /* background-color: aqua; */
+    background-color: blueviolet;
+    height: 300px;
+    width: 1435px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.event_pic2 {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.text_color {
+    font-size: 20px;
+}
+
+.voilet {
+    font-size: 20px;
     color: blueviolet;
 }
 
- .pastevent {
-    /* background-color: aqua; */
-    background-color: blueviolet;
-    height: 300px ;
-    width : 1435px ; 
-    border-radius: 15px ;
-    position : relative ; 
-    bottom : 610px ; 
-    left : 30px ; 
-    display: flex;
-    justify-content: space-evenly ;
-    align-items: center ;
-} 
-.event_pic {
-    background-color: black ;
-    height : 250px ; 
-    width : 300px ; 
-    border-radius : 15px ; 
-}
 .footer {
-    background-color: #1A1F32 ;
-    min-width: 100vh ;
-    height: 340px ;
+    background-color: #1A1F32;
+    min-width: 100vh;
+    height: 450px;
+    overflow-y: hidden;
 }
+
+.thought {
+    /* background-color: aqua ;  */
+    height: 60px;
+    width: 385px;
+    overflow-y: hidden;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.footer_thought {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.footer_thought2 {
+    /* background-color: aqua; */
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: "poppins";
+    font-weight: 600
+}
+
+.though2 {
+    /* background-color: aqua; */
+    height: 70px;
+    width: 385px;
+    overflow-y: hidden;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.footer_codemap {
+    color: blueviolet;
+}
+
+.srevice_section {
+     /* background-color: aqua;  */
+    height: 355px;
+    width: 250px;
+    position: relative;
+    left: 530px;
+    bottom: 130px;
+}
+
+.footer_heading2 {
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 3px;
+    
+}
+.service_list{
+    position: relative;
+    top : 40px ; 
+    left :3px ; 
+    padding: 6px ; 
+    color: whitesmoke;
+    font-size: 15px ;
+}
+
